@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 24px;
+}
+
+.symbol {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.symbol.income {
+  color: var(--income-color);
+}
+
+.symbol.expense {
+  color: var(--expense-color);
+}
+
+.input {
+  font-size: 48px;
+  font-weight: 600;
+  width: 200px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}

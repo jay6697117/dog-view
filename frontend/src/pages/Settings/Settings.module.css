@@ -1,0 +1,101 @@
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.card {
+  background-color: var(--bg-card);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.settingRow:last-child {
+  border-bottom: none;
+}
+
+.settingLabel {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.settingDesc {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.toggleBtn {
+  padding: 8px 16px;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.toggleBtn:hover {
+  background-color: var(--hover-bg);
+}
+
+.btnGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.actionBtn:hover {
+  filter: brightness(1.1);
+}
+
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+.about p {
+  margin-bottom: 8px;
+}
+
+.version {
+  color: var(--text-muted);
+  font-size: 12px;
+}
